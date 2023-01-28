@@ -1,0 +1,26 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "CRM backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "kaushal",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb-memory-server": "^8.11.4",
+    "mongoose": "^6.8.2",
+    "node-rest-client": "^3.1.1",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
